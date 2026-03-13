@@ -31,6 +31,7 @@ import {
     MarkPointComponent
   ])
 
+//   注册一个全局组件 v-char
   export const registerEcharts= (app:any)=>{
     app.component('v-chart', ECharts)
   }
